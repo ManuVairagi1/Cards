@@ -94,17 +94,27 @@ body {
   .header {
     font-size: 20px;
   }
+  body {
+    font-family: "Viaoda Libre", cursive;
+    /* background-color: rgb(240, 208, 196); */
+    margin-bottom: 500px;
+    background-image: url(images/background-mobile.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+  }
   .grid {
     display: block;
-    padding: 0;
+    flex-direction: column;
   }
   .container {
     height: 400px;
     width: 300px;
+    margin: 30px auto;
+    background-position: center;
   }
 
   .dish__img {
-    height: 120px;
+    height: 200px;
     width: 95%;
     margin-top: 20px;
     border-radius: 20px;
