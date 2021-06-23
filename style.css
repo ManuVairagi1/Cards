@@ -15,6 +15,9 @@ body {
   font-family: "Viaoda Libre", cursive;
   background-color: rgb(240, 208, 196);
   margin-bottom: 500px;
+  background-image: url(images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -27,12 +30,12 @@ body {
   height: auto;
   margin: auto;
   margin-top: 400px;
-  /* background: linear-gradient(
+  background: linear-gradient(
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.7)
     ),
-    url("images/makkeDiRoti.jpg"); */
-  background-color: rgb(245, 210, 164);
+    url("images/makkeDiRoti.jpg");
+  /* background-color: rgb(245, 210, 164); */
   overflow: auto;
   position: relative;
 }
