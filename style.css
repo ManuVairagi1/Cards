@@ -5,19 +5,20 @@
 }
 
 .header {
-  font-size: 50px;
+  font-size: 80px;
   margin-top: 80px;
   text-align: center;
   text-decoration: underline overline;
+  color: rgb(243, 207, 178);
 }
 
 body {
   font-family: "Viaoda Libre", cursive;
-  background-color: rgb(240, 208, 196);
+  /* background-color: rgb(240, 208, 196); */
   margin-bottom: 500px;
-  background-image: url(images/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("images/background.jpg");
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 .container {
@@ -79,13 +80,14 @@ body {
 
 .heading {
   font-size: 40px;
-  color: rgb(0, 0, 0);
+  color: rgb(143, 65, 1);
   font-weight: 700;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
+  gap: 10px;
 }
 
 @media only screen and (max-width: 600px) {
